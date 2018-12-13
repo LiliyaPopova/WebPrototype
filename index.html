@@ -5,33 +5,31 @@
     <title>Web Prototype Fronter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/main.js"></script>
 </head>
 
 <body>
     <img class="indexlogo" src="Images/fronter_logo.png" alt="logo">
-        <form>
-            <div class="input1">
-                <span> </span>
-                User :<input type="text" name="user" placeholder="    your username" required>
-            </div>
-            <hr>
-            <div class="input1">
-                Password :<input type="password" name="pw" placeholder="    your password" required>
-            </div>
-            <hr>
-            <div class="input2">
-                Select language:
-                <select>
-                    <option value="en">English</option>
-                    <option value="dk">Danish</option>
-                    <option value="bg">Bulgarian</option>
-                </select>
-            </div>
-            <button class="forgotpassbtn">Forgot your password ?</button>
-        </form>
-    <button class="loginbtn" href="home.html">LOG IN</button>
-    <button class="signupbtn">sign up</button>
-
+    <form action="home.html">
+        <div class="input1">
+            <span> </span>
+            User :<input type="text" name="user" placeholder="    your username" required>
+        </div>
+        <hr>
+        <div class="input1">
+            Password :<input type="password" name="pw" placeholder="    your password" required>
+        </div>
+        <hr>
+        <div class="input2">
+            Select language:
+            <select>
+                <option value="en">English</option>
+                <option value="dk">Danish</option>
+                <option value="bg">Bulgarian</option>
+            </select>
+        </div>
+        <a class="forgotpassbtn" href="forgotpass.html">Forgot your password ?</a>
+        <button class="loginbtn">LOG IN</button>
+        <a class="signupbtn" href="signup.html">SIGN UP</a>
+    </form>
 </body>
 </html>
