@@ -1,90 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Web Prototype Fronter</title>
+    <title>Sign up page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<style>
-    input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-    input[type=mail], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-        input[type=date], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-      textarea{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-    }
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAd50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-input[type=reset] {
-  width: 100%;
-  background-color: #4CAd50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-input[type=reset]:hover {
-  background-color: #45a049;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2e7f8;
-  padding: 20px;
-}
-</style>
 
 <body>
-    <h1>Please fill the form bellow : </h1>
+    <img src="Images/fronter_logo.png" alt="logo" width="100px">
     <div>
         <form>
             <fieldset>
-                <legend>Sign up form</legend>
+                <legend>Welcome, please fill the form bellow</legend>
                 <fieldset>
-                     <h4>Welcome</h4>
                     First name :
                     <br>
                     <input type="text" name="firstname" placeholder="your first name" required>
@@ -93,41 +21,46 @@ div {
                     <br>
                     <input type="text" name="lastname" placeholder="your last name" required>
                     <br>
+                    Gender
+                    <input type="radio" name="gender" value="male" checked> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                    <br>
+                    Birthday:
+                    <input type="date">
+                    <br>
+                </fieldset>
+                <fieldset>
+                    Status at KEA:
+                    <select name="gender">
+                        <option value="male">Student</option>
+                        <option value="female">Teacher</option>
+                        <option value="admin">Administration</option>
+                    </select>
+                    <br>
+                    Username :
+                    <br>
+                    <input type="text" name="firstname" placeholder="Choose username" required>
+                    <br>
                     mail :
                     <br>
                     <input type="mail" name="mail" placeholder="your e-mail" required>
                     <br>
-                    <input type="password" name="pw" placeholder="your password" required>
-                </fieldset>
-                <br>
-                <fieldset>
-                    Select your gender:
-                    <select name="gender">
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select>
+                    Choose password:
                     <br>
-                    Insert your birth date:
-                    <input type="date">
+                    <input type="password" name="pw" placeholder="choose password" required>
                     <br>
-                    Select status:
-                    <input type="radio" name="status" value="teacher" checked> Teacher
-                    <input type="radio" name="status" value="student"> Student
+                    Confirm password:
+                    <br>
+                    <input type="password" name="pw" placeholder="confirm password" required>
                 </fieldset>
-                <br>
-                <fieldset>
-                    <h4>More about you</h4>
-
-                    <p>Here you can tell us a bit more about your interests.</p>
-                    <textarea name="message" rows="10" cols="30">What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. </textarea>
-                </fieldset>
+                <input type="checkbox" name="agree" value="I agree"> I agree with the Terms.<br>
                 <br><br>
                 <input type="submit" value="Sign up">
-                <input type="reset">
             </fieldset>
         </form>
     </div>
+
 </body>
 
 </html>

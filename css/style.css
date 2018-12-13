@@ -1,0 +1,16 @@
+*{
+    background-color: #f4f4f4;
+    font-family: light;
+}
+@font-face{
+    src: url(fonts/HelveticaNeueLTStd-BdCn.otf);
+    font-family:HelveticaBold;
+}
+@font-face{
+    src: url(fonts/HelveticaNeueLTStd-Lt.otf);
+    font-family: light ;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
