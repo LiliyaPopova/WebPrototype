@@ -1,16 +1,105 @@
-*{
+.indexlogo {
+    width: 80%;
+    display: block;
+    margin: 25% auto 15% auto;
+}
+
+span {
+    /*the small user icon*/
+    width: 20px;
+    height: 22px;
+    background-image: url(/Images/user.png);
+    display: inline-block;
+    background-size: contain;
+}
+
+form {
+    /*style the forms*/
+    font-family: light, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    width: 80%;
+    display: block;
+    margin: auto auto 15% auto;
+}
+
+input[type=text] {
+    font-size: 18px;
+}
+
+input[type=password] {
+    font-size: 18px;
+}
+
+select {
+    padding: 5px 5px;
+    border: none;
+    border-radius: 30px;
+    background-color: gainsboro;
+}
+
+input {
+    border: none;
+    font-style: italic;
+}
+
+.input1 {
+    display: block;
+}
+
+.input2 {
+    display: block;
+    font-size: 20px;
+
+}
+
+.signup {
+    border: none;
+}
+
+.forgotpassbtn {
+    border: none;
+    display: block;
+    margin: 10% auto 10% auto;
+    font-size: 15px;
+}
+
+.signupbtn {
+    border: none;
+    display: block;
+}
+
+* {
     background-color: #f4f4f4;
     font-family: light;
 }
-@font-face{
+
+@font-face {
     src: url(fonts/HelveticaNeueLTStd-BdCn.otf);
-    font-family:HelveticaBold;
+    font-family: HelveticaBold;
 }
-@font-face{
+
+@font-face {
     src: url(fonts/HelveticaNeueLTStd-Lt.otf);
-    font-family: light ;
+    font-family: light;
 }
-.container{
+
+.container {
     width: 80%;
     margin: auto;
+}
+
+.loginbtn {
+    background-color: #5DC4E5;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    margin: 10% auto 10% auto;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }

@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Web Prototype Fronter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <img src="Images/fronter_logo.png" alt="logo" width="300px">
+    <img class="indexlogo" src="Images/fronter_logo.png" alt="logo">
         <form>
-            Username :<input type="text" name="user" placeholder="your username" required>
-
-            Password :<input type="password" name="pw" placeholder="your password" required>
-
-            Select language:
-            <select>
-                <option value="en">English</option>
-                <option value="dk">Danish</option>
-                <option value="bg">Bulgarian</option>
-            </select>
-            <input type="submit" value="Log in">
+            <div class="input1">
+                <span> </span>
+                User :<input type="text" name="user" placeholder="    your username" required>
+            </div>
+            <hr>
+            <div class="input1">
+                Password :<input type="password" name="pw" placeholder="    your password" required>
+            </div>
+            <hr>
+            <div class="input2">
+                Select language:
+                <select>
+                    <option value="en">English</option>
+                    <option value="dk">Danish</option>
+                    <option value="bg">Bulgarian</option>
+                </select>
+            </div>
+            <button class="forgotpassbtn">Forgot your password ?</button>
         </form>
+    <button class="loginbtn" href="home.html">LOG IN</button>
+    <button class="signupbtn">sign up</button>
 
-        <button>sign up</button>
-    </div>
 </body>
 </html>
