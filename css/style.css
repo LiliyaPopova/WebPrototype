@@ -123,7 +123,7 @@ input {
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 25px;
+    font-size: 28px;
     margin: 10% auto 10% auto;
     border-radius: 20px;
     transition-duration: 0.4s;
@@ -134,14 +134,12 @@ input {
     background-color: #5DC4E5;
     border: none;
     color: white;
-    padding: 10px 48px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 25px;
-    margin: 0 auto 1% auto;
+    font-size: 28px;
     border-radius: 20px;
-    transition-duration: 0.4s;
     cursor: pointer;
 }
 
@@ -149,14 +147,12 @@ input {
     background-color: #1366B0;
     border: none;
     color: white;
-    padding: 10px 120px;
+    padding: 10px 90px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 25px;
-    margin: 0 auto 1% auto;
+    font-size: 28px;
     border-radius: 20px;
-    transition-duration: 0.4s;
     cursor: pointer;
 }
 
@@ -164,43 +160,60 @@ input {
     background-color: #664F60;
     border: none;
     color: white;
-    padding: 10px 110px;
+    padding: 10px 80px;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 25px;
-    margin: 0 auto 1% auto;
+    font-size: 28px;
     border-radius: 20px;
-    transition-duration: 0.4s;
     cursor: pointer;
 }
 
 .studbtn {
+    width: 100%;
     background-color: #9F96C9;
     border: none;
     color: white;
-    padding: 10px 60px;
+    padding: 10px 0;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 25px;
-    margin: 0 auto 1% auto;
+    font-size: 28px;
     border-radius: 20px;
-    transition-duration: 0.4s;
     cursor: pointer;
+
 }
 
 .exambtn {
+    width: 100%;
     background-color: #EA4E43;
     border: none;
     color: white;
-    padding: 10px 110px;
+    padding: 10px 0;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 25px;
-    margin: 0 auto 10% auto;
+    font-size: 28px;
     border-radius: 20px;
-    transition-duration: 0.4s;
     cursor: pointer;
+
+}
+.fas fa-lock{
+    color: black;
+}
+.homebtns{
+  border: none;
+  border-radius: 25px;
+  background: lightgray;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+.box{
+    margin-bottom: 0.2em;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
